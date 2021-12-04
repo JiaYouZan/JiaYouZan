@@ -257,7 +257,41 @@ nav ul li a:hover:after{
 
 
 
+.we{
+    width: 100%;
+    height: 400px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+    backdrop-filter: blur(25px);
+    background-image:url(img/we.jpg);
+    background-size: cover;
+    padding: 10px;
+}
 
+.we-txt{
+    width: 600px;
+    height: 400px;
+    
+    text-align: center;
+    margin: 50px auto;
+}
+
+.we h2{
+    color: rgb(90, 106, 116);
+    font-weight: 900;
+    font-size: 70px;
+    -webkit-text-stroke: 1.5px #fff;
+    margin-bottom: 30px;
+    
+}
+
+
+.we p{
+    color: #fff;
+    line-height: 2;
+}
 
 
 
@@ -716,11 +750,3 @@ footer .wave#wave4{
      cursor:pointer;
 }
 /*gotop end*/
-.lorem{
-    width: 500px;
-    height: 400px;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    margin: 200px auto;
-}
