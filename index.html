@@ -27,8 +27,7 @@
 <!-- ------------------------------------ -->
 <div class="dropdown">
     <nav>
-   
-       
+    
         <li class="box">
             <div class="container-2">
                 <span class="icon"><i class="fa fa-search"></i></span>
@@ -85,21 +84,55 @@
 
 
 <!--  -->
+<div class="shop">
+    <h2>周邊商品</h2>
 <div class="jpeg">
-   <div class="wei">
-        <img class="jpg" src="img/4.商品/筆帶.jpg">
-   </div>
-   <div class="wei">
-    <img class="jpg" src="img/4.商品/水兵帽.jpg">
-</div>
-<div class="wei">
-    <img class="jpg" src="img/4.商品/書籤.jpg">
-</div>
-<div class="wei">
-    <img class="jpg" src="img/4.商品/抱枕.jpg">
-</div>
+        <div class="wei">
+            <img class="jpg" src="img/4.商品/筆帶.jpg">
+           </div>
+        <div class="wei">
+            <img class="jpg" src="img/4.商品/水兵帽.jpg">
+           </div>
+        <div class="wei">
+        <img class="jpg" src="img/4.商品/書籤.jpg">
+           </div>
+        <div class="wei">
+        <img class="jpg" src="img/4.商品/抱枕.jpg">
+           </div>
 </div>
 
+<div class="sptxt">
+    <div class="text-1"><p>筆帶</p></div>
+    <div class="text-2"><p>水兵帽</p></div>
+    <div class="text-3"><p>書籤</p></div>
+    <div class="text-4"><p>抱枕</p></div>
+</div>
+
+<div class="jpeg-2">
+    <div class="wei">
+        <img class="jpg" src="img/4.商品/筆帶.jpg">
+       </div>
+    <div class="wei">
+        <img class="jpg" src="img/4.商品/水兵帽.jpg">
+       </div>
+    <div class="wei">
+    <img class="jpg" src="img/4.商品/書籤.jpg">
+       </div>
+    <div class="wei">
+    <img class="jpg" src="img/4.商品/抱枕.jpg">
+       </div>
+</div>
+
+<div class="sptxt">
+    <div class="text-5"><p>筆帶</p></div>
+    <div class="text-6"><p>水兵帽</p></div>
+    <div class="text-7"><p>書籤</p></div>
+    <div class="text-8"><p>抱枕</p></div>
+</div>
+
+
+
+</div>
 
 <div class="c1">    
 </div>
@@ -113,7 +146,7 @@
 
 
      <!-- ----------------------------------- -->
-    <footer>
+    <footer class="footer clearfix">
         
         <div class="waves">
             <div class="wave" id="wave1"></div>
@@ -121,14 +154,23 @@
             <div class="wave" id="wave3"></div>
             <div class="wave" id="wave4"></div>
         </div>
-        <ul class="menu">
-            <li><a href="#">about</a></li>
-            <li><a href="#">home</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">team</a></li>
-            <li><a href="#">contact</a></li>
-        </ul>
-        <p>@2021 嘉遊讚 | by Lee shih han</p>
+
+        <div class="f_title">嘉遊讚</div>
+        <div class="f_content">
+            <p><a href="file:///C:/Users/USER/Desktop/BTS/bts.html#"target="_blank">600 嘉義市中山路7號</a></p>
+            <p><a href="tel:+05-1234567">TEL:05-1234567</a></p>
+            <p><a href="mailto:123@gmail.com">Email:123@gmail.com</a></p>
+    
+            <ul class="follow_pic">
+                <li><a href="https://twitter.com/bts_twt" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/bangtan.official" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="mailto:bts@gmail.com" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-line"></i></a></li>
+            </ul>
+                
+          </div>
+          <div class="txt2021">
+             <p>@2021 嘉遊讚 | by Lee shih han</p></div>
     </footer>
 
 
@@ -138,7 +180,31 @@
 
 
 
-    <a class="gotop" href="#"><i class="fas fa-arrow-up"></i></a>
+  
+
+<div class="top-arrow">
+    <span class="scroll-top-top">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </span>
+</div><!-- gotop end-->
+    <!-- gotop -->
+    <script>
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+              $(".scroll-top-top").fadeIn('600');
+            }else{
+              $(".scroll-top-top").fadeOut('700');
+            }
+        });
+
+
+        $(document).ready(function() {
+            $(".scroll-top-top").on("click", function(){
+               $('html, body').animate({scrollTop: 0}, 'slow');
+            });
+        });  
+    </script><!-- gotop end-->
+    
 <script>
     $(document).ready(function(){
    
