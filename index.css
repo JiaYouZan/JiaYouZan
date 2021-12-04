@@ -11,7 +11,35 @@ body{
     background: linear-gradient(175deg,rgb(159, 223, 253),rgb(255, 255, 255));
 }
     
+.veido{
+    width: 90%;
+    height: 500px;
+    background: rgb(255, 255, 255);
+     display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed rgb(241, 128, 22);
 
+}
+.veido h2{
+    
+    color: #000;
+    font-weight: 900;
+    font-size: 50px;
+    width: 300px;
+    text-align: center;
+    margin: -50px 80px;
+    border-right: 50px;
+    border-bottom: 5px solid rgb(241, 128, 22);
+    margin-bottom: 30px;
+    
+}
+.veido h2:hover{
+    color: rgb(241, 128, 22);
+    border-bottom: 5px solid rgb(22, 124, 241);
+    font-style: italic;
+}
 /* ***************************** */
 .loading{
     position: fixed;
@@ -263,7 +291,10 @@ nav ul li a:hover:after{
     text-align: left;
     justify-content: center;
     align-items: center;
-    margin: 200px auto;
+    margin: 0 auto;
+
+    margin-top: 200px;
+    margin-bottom: 0px;
     backdrop-filter: blur(25px);
     background-image:url(img/we.jpg);
     background-size: cover;
@@ -292,10 +323,72 @@ nav ul li a:hover:after{
     color: #fff;
     line-height: 2;
 }
+/* ******************************* */
 
+.disign{
+    width: 80%;
+    height: 800px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 
+    margin-top: 80px;
+    margin-bottom: 300px;
+    backdrop-filter: blur(25px);
+    background:rgba(255,255,255,.5);
 
+    box-shadow: 5px 5px 15px rgba(59, 59, 59,.2),
+                -2px -2px 2px rgba(255, 255, 255, 0.5),
+                inset 3px 3px 5px rgba(167, 167, 167, 0.1),
+                inset -1px -1px 2px rgba(255, 255, 255, 0.1);
+    
+    border-radius: 25px;
+    
+    padding: 10px;
+}
 
+.disign-txt{
+    width: 600px;
+    height: 400px;
+    
+    text-align: center;
+    margin: 50px auto;
+}
+
+.disign h2{
+    color: #000;
+    font-weight: 900;
+    font-size: 50px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    border-bottom: 5px solid rgb(241, 128, 22);
+    margin-bottom: 30px;
+    
+}
+.disign h2:hover{
+    color: rgb(241, 128, 22);
+    border-bottom: 5px solid rgb(22, 124, 241);
+    font-style: italic;
+}
+.disign h3{
+    color: rgb(90, 106, 116);
+    font-weight: 800;
+    font-size: 20px;
+
+    margin-bottom: 30px;
+    
+}
+
+.disign p{
+    color: rgb(44, 39, 39);
+    line-height: 2;
+}
+.disign img{
+    width: 300px;
+    height: auto;
+}
 
 
 
