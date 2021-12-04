@@ -83,7 +83,8 @@ h2 span{
     margin-top: 11px;
 }
 .logo:hover{
-    transform: rotate(10deg);
+    transform: scale(1.05);
+
     transition: 0.5s;
 }
 nav{
@@ -239,13 +240,13 @@ nav ul li a:hover:after{
     width: 50px;
     height: 40px;
     color: rgb(238, 109, 28);
-    background-color: #ccc;
+    background-color: #f8f8f8;
     border-radius: 5px;
     text-decoration: none;
     line-height: 40px;
     font-size: 20px;
     padding-left: 15px;
-
+    cursor: pointer;
 }
 .btn_phone:hover{
     color: #888;
@@ -282,15 +283,15 @@ nav ul li a:hover:after{
 
 
 /* ********************** */
-.jpeg{
-    display: flex;
+.shop{
+    
     position: relative;
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 300px;
-    margin: 200px 78px;
-    background:rgba(255,255,255,.2);
+    height: 1000px;
+    margin: 50px 78px;
+    background:rgba(255,255,255,.5);
 
     box-shadow: 5px 5px 15px rgba(59, 59, 59,.2),
                 -2px -2px 2px rgba(255, 255, 255, 0.5),
@@ -298,12 +299,155 @@ nav ul li a:hover:after{
                 inset -1px -1px 2px rgba(255, 255, 255, 0.1);
     
     border-radius: 5px;
+    
 }
+.shop h2{
+    width: 300px;
+    font-weight: 800;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+   text-align: center;
+    padding: 50px 0 10px 0;
+   margin: 50px auto;
+   border-bottom: 5px solid rgb(241, 128, 22);
+}
+.shop h2:hover{
+    color: rgb(241, 128, 22);
+    border-bottom: 5px solid rgb(22, 124, 241);
+    font-style: italic;
+}
+.jpeg{
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+   
+    margin: 0px 70px;
+    
+    margin-bottom: -50px;
+
+    
+}
+.sptxt{
+    display:flex;
+    position: relative;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin:-10px auto 10px auto;
+}
+.sptxt .text-1:hover{
+    background: rgb(22, 124, 241);
+}
+.sptxt .text-2:hover{
+    background: rgb(22, 124, 241);
+}
+.sptxt .text-3:hover{
+    background: rgb(22, 124, 241);
+}
+.sptxt .text-4:hover{
+    background: rgb(22, 124, 241);
+}
+.sptxt .text-5:hover{
+    background: rgb(22, 124, 241);
+}
+.sptxt .text-6:hover{
+    background: rgb(22, 124, 241);
+}
+.sptxt .text-7:hover{
+    background: rgb(22, 124, 241);
+}
+.sptxt .text-8:hover{
+    background: rgb(22, 124, 241);
+}
+
+.sptxt .text-1{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin: 50px; 
+    padding: 2px;
+}
+.sptxt .text-2{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin:50px ;
+    padding: 2px;
+}
+.sptxt .text-3{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin:50px ;
+    padding: 2px;
+}
+.sptxt .text-4{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin:50px ;
+    padding: 2px;
+}
+.jpeg-2{
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+   
+    margin: 0px 70px;
+    
+    margin-bottom: -50px;
+    
+}
+.sptxt .text-5{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin: 50px; 
+    padding: 2px;
+}
+.sptxt .text-6{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin:50px ;
+    padding: 2px;
+}
+.sptxt .text-7{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin:50px ;
+    padding: 2px;
+}
+.sptxt .text-8{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin:50px ;
+    padding: 2px;
+}
+
 .wei {
     
     width: 200px;
     height: 200px;
-    border: 3px solid rgb(238, 109, 28);
+    border: 5px solid rgb(255, 255, 255);
     margin: 0px 50px ;
     overflow: hidden;
     }
@@ -392,43 +536,115 @@ nav ul li a:hover:after{
 /* ********************************** */
 footer{
     position: relative;
+    text-align: center;
     width: 100%;
     background: rgb(254, 152, 61);
    min-height: 100px;
   padding: 20px 50px;
   margin-bottom: 0px;
-  
+  margin-top: 200px;
+  line-height: 1.8;
+    letter-spacing: 2px;
  
 }
-footer .menu{
-position: relative;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 10px 0;
-flex-wrap: wrap;
+.txt2021 p{
+    font-size: 10px;
+    color: rgb(172, 50, 50);
 }
-footer .menu li{
-    list-style: none;
-    margin-top: 50px;
+.footer .f_title{
+    width: 100%;
+    height: 40px;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+
+    
 }
-footer .menu li a{
-    font-size: 1.2em;
-    color: #fff;
-    margin: 0 10px;
+.footer .f_title:after{
+    border-top: 2px solid;
+    content: "";
+    display: block;
+    max-width: 5em;
+    width: 100%;
+   margin: auto auto;
+}
+
+   
+.footer .f_content p{
+    line-height: 2.5;
+    position: relative;
+    transform: translateX(0px);
+}
+.footer .f_content a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+.footer .f_content p:before{
+    content: '';
+position: absolute;
+width: 0;
+height: 0;
+top: 0;
+left: 0;
+transform: translateX(50px);
+}
+
+.footer .f_content a:hover{
+    color: rgb(6, 62, 99);
+   
+}
+.footer .f_content p:hover{
+    transform: translateX(50px);
+    
+}
+
+
+ul.follow_pic li{
     display: inline-block;
-   text-decoration: none;
+    float: none;
+    clear: none;
+    margin-right: 5px;
+    position: relative;
+    margin: 20px 0;
 }
-footer .menu li a:hover{
-    opacity: 1;
+
+.follow_pic .fab{
+padding: 10px;
+font-size: 30px;
+width: 50px;
+border-radius: 50px;
+text-align: center;
+text-decoration: none;
+margin: 3px 2px;
+
 }
-footer p{
+
+.fa-twitter{
+    background: #55acee;
     color: #fff;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 1.1em;
 }
+.fa-facebook-f{
+    background: #128ce9;
+    color: #fff;
+}
+.fa-google-plus-g{
+    background: #ee5555;
+    color: #fff;
+}
+.fa-line{
+    background: #55ee55;
+    color: #fff;
+}
+.follow_pic .fab:hover{
+    transform: rotate(60deg);
+    transition: 0.5s;
+    
+}
+
+
+/*底END*/
 footer .wave{
     position: absolute;
     top: -100px;
@@ -484,7 +700,7 @@ footer .wave#wave4{
 
 
 /*gotop*/
-.gotop{
+.top-arrow{
     position: fixed;
     width: 50px;
     height: 50px;
@@ -497,6 +713,7 @@ footer .wave#wave4{
     text-decoration: none;
     line-height: 50px;
      z-index: 9999;
+     cursor:pointer;
 }
 /*gotop end*/
 .lorem{
