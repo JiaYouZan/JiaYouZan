@@ -1,0 +1,333 @@
+*{
+    font-family:sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: rgb(193, 241, 253);
+   
+}
+
+/* ***************************** */
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(17, 24, 43);
+    z-index: 99999;
+}
+.loader{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20% ;
+}
+h2{
+    font-size: 6em;
+    color: rgb(163, 195, 245);
+    font-weight: 500;
+}
+h2 span:nth-child(1){
+    animation-delay: 0s;
+}
+h2 span:nth-child(2){
+    animation-delay: 0.3s;
+}
+h2 span:nth-child(3){
+    animation-delay: 0.5s;
+}
+h2 span:nth-child(4){
+    animation-delay: 0.8s;
+}
+h2 span:nth-child(5){
+    animation-delay: 1s;
+}
+h2 span{
+    animation: animate 1s linear infinite;
+}
+@keyframes animate{
+    0%,80%{
+        color:rgb(252, 224, 164);
+        text-shadow:none;
+    }
+    0%{
+        color: #fff;
+        text-shadow:0 0 10px  #fff,
+                    0 0 20px  #fff,
+                    0 0 40px  #fff,
+                    0 0 80px  #fff,
+                    0 0 120px #fff,
+                    0 0 160px #fff;
+    }
+}
+/*  ************************************************/
+
+.dropdown{
+    margin: 0 auto;
+    position: relative;
+    z-index: 9999;
+
+}
+.logo{
+    width: auto;
+    height: 60px;
+float: left;
+margin-left: 300px;
+margin-top: 11px;
+}
+.logo:hover{
+ transform: scale(1.1);
+}
+nav{
+    height: 80px;
+    background:#f8f8f8;
+    box-shadow: 0px 10px 10px rgba(87, 87, 87, 0.5);
+   
+}
+nav ul{
+    padding: 14px 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    background: #f8f8f8;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+
+    position: relative;
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover>ul{
+    display: block;
+}
+nav ul ul li{
+width: 150px;
+float: none;
+display: list-item;
+position: relative;
+}
+
+
+nav  ul li a:hover{
+    color: rgb(255, 107, 49);
+    font-style: italic;
+}
+nav ul li a:after{
+    content: "";
+    left: 50%;
+    right: 50%;
+    height: 0;
+    bottom: 15px;
+    border-bottom: 2px solid rgb(255, 222, 37);
+    position: absolute;
+
+    transition: .3s;
+    
+}
+nav ul li a:hover:after{
+    left: 0;
+    right: 0;
+
+    transition: .3s;
+}
+
+/**************************************/
+.box{
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+    padding-left: 15px;
+    list-style: none;
+}
+.container-2{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+}
+.container-2 input#search{
+    padding: 5px 10px;
+    background:#fff;
+    color: rgb(77, 77, 77);
+    border: none;
+    box-shadow: 0px 2px 5px rgb(212, 212, 212);
+    border-radius: 50px 0 0 50px;
+}
+.container-2 button{
+    border-radius: 0 50px 50px 0;
+    border: none;
+    box-shadow: 0px 2px 5px rgb(212, 212, 212);
+}
+.container-2 input#search:focus{
+    outline: none;
+}
+
+/* ************************************************** */
+.jpeg{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin: 200px 0;
+    background-color: #fff;
+}
+.wei {
+    
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(238, 109, 28);
+    margin: 0px 50px ;
+    overflow: hidden;
+    }
+
+   .jpg {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;
+    }
+    .wei:hover .jpg {
+        transform: scale(1.4);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************** */
+footer{
+    position: relative;
+    width: 100%;
+    background: rgb(68, 148, 209);
+   min-height: 100px;
+  padding: 20px 50px;
+  margin-bottom: 0px;
+  
+ 
+}
+footer .menu{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px 0;
+flex-wrap: wrap;
+}
+footer .menu li{
+    list-style: none;
+    margin-top: 50px;
+}
+footer .menu li a{
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+   text-decoration: none;
+}
+footer .menu li a:hover{
+    opacity: 1;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    
+    background-image: url(img/wave.png);
+    background-size: 1000px 100px;
+}
+footer .wave#wave1{
+    z-index: 9999;
+    opacity: 1;
+    bottom: 0;
+    animation: animatewave_02 4s linear infinite;
+}
+footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animatewave 3s linear infinite;
+}
+
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animatewave_02 3s linear infinite;
+}
+footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animatewave 4s linear infinite;
+}
+
+@keyframes animatewave {
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+@keyframes animatewave_02 {
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
