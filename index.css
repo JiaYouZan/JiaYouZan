@@ -8,9 +8,9 @@ body{
    
     min-height: 100vh;
     overflow-x: hidden;
-    background: rgb(193, 241, 253);
-   
+    background: linear-gradient(175deg,rgb(159, 223, 253),rgb(255, 255, 255));
 }
+    
 
 /* ***************************** */
 .loading{
@@ -78,24 +78,29 @@ h2 span{
 .logo{
     width: auto;
     height: 60px;
-float: left;
-margin-left: 300px;
-margin-top: 11px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 11px;
 }
 .logo:hover{
- transform: scale(1.1);
+    transform: rotate(10deg);
+    transition: 0.5s;
 }
 nav{
     height: 80px;
     background:#f8f8f8;
     box-shadow: 0px 10px 10px rgba(87, 87, 87, 0.5);
-   
+    border-radius: 0 0 25px 25px;
+    border:1px solid #fff ;
+    
 }
+
+
 nav ul{
     padding: 14px 0;
     margin: 0;
     float: right;
-    margin-right: 30px;
+    margin-right:30px;
 }
 nav ul li{
     background: #f8f8f8;
@@ -156,44 +161,143 @@ nav ul li a:hover:after{
 .box{
     float: right;
     margin-right: 150px;
-    margin-top: 30px;
-    padding-left: 15px;
+    margin-top: 24px;
+    padding-left: 1px;
     list-style: none;
 }
+
+
 .container-2{
     width: 300px;
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
-    display: flex;
 }
+
 .container-2 input#search{
-    padding: 5px 10px;
-    background:#fff;
-    color: rgb(77, 77, 77);
+    width: 50px;
+    height: 40px;
+    background: #ccc;
     border: none;
-    box-shadow: 0px 2px 5px rgb(212, 212, 212);
-    border-radius: 50px 0 0 50px;
+    font-size: 3px;
+    float: left;
+    color: #100;
+    padding-left: 43px;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    border-radius: 5px ;
+    color: #888;
+
+    -webkit-transition: width .55s ease;
+    -moz-transition: width .55s ease;
+    -ms-transition: width .55s ease;
+    -o-transition: width .55s ease;
+    transition: width .55s ease;
+
 }
-.container-2 button{
-    border-radius: 0 50px 50px 0;
-    border: none;
-    box-shadow: 0px 2px 5px rgb(212, 212, 212);
+
+.container-2 input#search::-webkit-input-placeholder{
+    color: #aaa;
 }
-.container-2 input#search:focus{
+.container-2 input#search:-moz-input-placeholder{
+    color: #aaa;
+}
+.container-2 input#search::-moz-input-placeholder{
+    color: #aaa;
+}
+.container-2 input#search:-ms-input-placeholder{
+    color: #aaa;
+}
+
+.container-2 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 18px;
+    margin-top: 13px;
+    z-index: 1;
+    color: rgb(0, 132, 255);
+}
+
+
+.container-2 input#search:focus,.container-2 input#search:active{
     outline: none;
+    width: 300px;
+}
+
+.container-2:hover input#search{
+    width: 300px;
+}
+
+.container-2:hover .icon{
+    color: #aaa;
 }
 
 /* ************************************************** */
+
+.btn_phone{
+    display: block;
+    width: 50px;
+    height: 40px;
+    color: rgb(238, 109, 28);
+    background-color: #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 15px;
+
+}
+.btn_phone:hover{
+    color: #888;
+    background-color: #fff;
+}
+
+/* ********* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************** */
 .jpeg{
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 300px;
-    margin: 200px 0;
-    background-color: #fff;
+    margin: 200px 78px;
+    background:rgba(255,255,255,.2);
+
+    box-shadow: 5px 5px 15px rgba(59, 59, 59,.2),
+                -2px -2px 2px rgba(255, 255, 255, 0.5),
+                inset 3px 3px 5px rgba(167, 167, 167, 0.1),
+                inset -1px -1px 2px rgba(255, 255, 255, 0.1);
+    
+    border-radius: 5px;
 }
 .wei {
     
@@ -233,7 +337,53 @@ nav ul li a:hover:after{
 
 
 
+/* 圓點*/
+.c1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:5px solid rgb(102, 173, 214);
+    
+    margin-top: -200px;
+    margin-left: -100px;
+}
 
+.c2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color:rgba(102, 173, 214,.5) ;
+    
+    
+    margin-top: -750px;
+    float: right;
+    margin-right: 10px;
+}
+
+.c3{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color:rgba(146, 215, 255, 0.5) ;
+    
+    
+    margin-top: -550px;
+    float: right;
+    margin-right: 400px;
+}
+.c4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgba(146, 215, 255, 0.5) ;
+    
+    
+    margin-top: -600px;
+    float: right;
+    margin-right: 1200px;
+}
+
+/* 圓點end*/
 
 
 
@@ -243,7 +393,7 @@ nav ul li a:hover:after{
 footer{
     position: relative;
     width: 100%;
-    background: rgb(68, 148, 209);
+    background: rgb(254, 152, 61);
    min-height: 100px;
   padding: 20px 50px;
   margin-bottom: 0px;
@@ -330,4 +480,30 @@ footer .wave#wave4{
     100%{
         background-position-x: 1000px;
     }
+}
+
+
+/*gotop*/
+.gotop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: rgb(29, 117, 158);
+    color: rgb(250, 237, 118);
+    bottom: 20px;
+    right: 50px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+     z-index: 9999;
+}
+/*gotop end*/
+.lorem{
+    width: 500px;
+    height: 400px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
 }
