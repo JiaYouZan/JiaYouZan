@@ -498,7 +498,7 @@ z-index: 8;
     align-items: center;
     margin: 0 auto;
 
-    margin-top: 0px;
+    margin-top: -5px;
     margin-bottom: 0px;
     backdrop-filter: blur(25px);
     background-image:url(img/we.jpg);
@@ -659,7 +659,7 @@ z-index: 8;
 /* ********************** */
 .bshop{
     width: 100%;
-    height: 1200px;
+    height: 2000px;
     background-image: url(img/bg-1.jpg);
     background-size: cover;
     margin-bottom: 100px;
@@ -671,15 +671,15 @@ z-index: 8;
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 1000px;
+    height: 1800px;
     margin: 50px 78px;
     top: 100px;
     background:rgba(255,255,255,.5);
-
+    border: 1px solid #fff;
     box-shadow: 5px 5px 15px rgba(59, 59, 59,.2),
                 -2px -2px 2px rgba(255, 255, 255, 0.5),
-                inset 3px 3px 5px rgba(167, 167, 167, 0.1),
-                inset -1px -1px 2px rgba(255, 255, 255, 0.1);
+                inset 3px 3px 5px rgba(167, 167, 167, 0.4),
+                inset -1px -1px 2px rgba(255, 255, 255, 0.8);
     
     border-radius: 50px;
     
@@ -747,7 +747,30 @@ z-index: 8;
 .sptxt .text-8:hover{
     background: rgb(22, 124, 241);
 }
-
+.sptxt .text-9:hover{
+    background: rgb(22, 124, 241);
+}
+.sptxt .text-10:hover{
+    background: rgb(22, 124, 241);
+}
+.sptxt .text-11:hover{
+    background: rgb(22, 124, 241);
+}
+.sptxt .text-12:hover{
+    background: rgb(22, 124, 241);
+}
+.sptxt .text-13:hover{
+    background: rgb(22, 124, 241);
+}
+.sptxt .text-14:hover{
+    background: rgb(22, 124, 241);
+}
+.sptxt .text-15:hover{
+    background: rgb(22, 124, 241);
+}
+.sptxt .text-16:hover{
+    background: rgb(22, 124, 241);
+}
 .sptxt .text-1{
     width: 200px;
     color: #fff;
@@ -825,6 +848,101 @@ z-index: 8;
     margin:50px ;
     padding: 2px;
 }
+
+
+.jpeg-3{
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+   
+    margin: 0px 70px;
+    
+    margin-bottom: -50px;
+    
+}
+.sptxt .text-9{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin: 50px; 
+    padding: 2px;
+}
+.sptxt .text-10{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin:50px ;
+    padding: 2px;
+}
+.sptxt .text-11{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin:50px ;
+    padding: 2px;
+}
+.sptxt .text-12{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin:50px ;
+    padding: 2px;
+}
+
+
+.jpeg-4{
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+   
+    margin: 0px 70px;
+    
+    margin-bottom: -50px;
+    
+}
+.sptxt .text-13{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin: 50px; 
+    padding: 2px;
+}
+.sptxt .text-14{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin:50px ;
+    padding: 2px;
+}
+.sptxt .text-15{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin:50px ;
+    padding: 2px;
+}
+.sptxt .text-16{
+    width: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    background: rgb(241, 128, 22);
+    margin:50px ;
+    padding: 2px;
+}
+
 
 .wei {
     
