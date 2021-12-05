@@ -510,19 +510,35 @@ z-index: 8;
 }
 
 .we h2{
+
+    width: 300px;
     color: rgb(90, 106, 116);
     font-weight: 900;
-    font-size: 70px;
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
     -webkit-text-stroke: 1.5px #fff;
     margin-bottom: 30px;
     
 }
-
+.we h2:hover{
+    color:rgb(22, 124, 241);
+     border-bottom: 4px solid rgb(241, 128, 22);
+    }
+    
 
 .we p{
     color: #fff;
     line-height: 2;
+    text-shadow: 1px 1px 3px rgb(3, 3, 3);
 }
+
+ .we p:hover{
+  padding: 10px;
+    background-color: rgb(241, 128, 22);
+    
+}
+
 /* ******************************* */
 
 .disign{
