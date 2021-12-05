@@ -35,7 +35,7 @@
             </div>
         </li>
 
-        <a href="#"><img class="logo" src="img/標準字1.jpg"/></a>
+        <a href="#"><img class="logo" src="img/標準字1.png"/></a>
 
         <ul>
             <li><a href="#">首頁</a></li>
@@ -61,12 +61,85 @@
     </nav>
  </div>
 
+ <!-- ---------------------------- -->
+<div class="slide">
+    <img class="slide" src="img/封面.png"/>
+</div>
+
+ <div class="logoo">
+    <img class="slide" src="img/標準字1.png"/>
+</div>
+
+
+
+<!--  -->
+<div class="container">
+    <span class="ripple r1"></span>
+    <span class="ripple r2"></span>
+    <span class="ripple r3"></span>
+    <span class="ripple r4"></span>
+    <span class="ripple r5"></span>
+    <span class="ripple r6"></span>
+</div>
+
+
+<!-- --------------->
+<div id="pic" style="OVERFLOW: hidden; width:1024; margin-top: 380px;">
+    <table width="100%" border=0 cellpadding=0 bgcolor="" cellspace=0>
+    <tr>
+    <td id="pic1">
+    <table>
+    <tr>
+        <td><a rel="nofollow" href="#" target=_blank><img src="img/繪本/繪本1.2-字幕.jpg" height="300" border=0></td>
+            <td><a rel="nofollow" href="#" target=_blank><img src="img/繪本/繪本3.4-字幕.jpg" height="300" border=0></td>
+            <td><a rel="nofollow" href="#" target=_blank><img src="img/繪本/繪本5.6-字幕.jpg" height="300" border=0></td>
+            <td><a rel="nofollow" href="#" target=_blank><img src="img/繪本/繪本7.8-字幕.jpg" height="300" border=0></td>
+            <td><a rel="nofollow" href="#" target=_blank><img src="img/繪本/繪本9.10-字幕.jpg" height="300" border=0></td>
+            <td><a rel="nofollow" href="#" target=_blank><img src="img/繪本/繪本11.12-字幕.jpg" height="300" border=0></td>
+            <td><a rel="nofollow" href="#" target=_blank><img src="img/繪本/繪本13.14字幕.jpg" height="300" border=0></td>
+            <td><a rel="nofollow" href="#" target=_blank><img src="img/繪本/繪本15.16字幕.jpg" height="300" border=0></td>
+    </tr>
+    </table>
+    </td>
+    <td id="pic2"></td>
+    </tr>
+
+    <script>
+      var speed=30
+      pic2.innerHTML=pic1.innerHTML
+      pic.scrollLeft=pic.scrollWidth
+      function Marquee(){
+      if(pic.scrollLeft<=0)
+      pic.scrollLeft+=pic2.offsetWidth
+      else{
+      pic.scrollLeft--
+      }
+      }
+      var MyMar=setInterval(Marquee,speed)
+      pic.onmouseover=function() {clearInterval(MyMar)}
+      pic.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+      </script>
+      </table>
+      </div>
+
+
+      <!-- ------------------------------------ -->
  
+<!--  -->
+<div class="people">
+
+</div>
 
 
 
 
 
+
+
+
+
+
+<!--  -->
 <div class="we">
     <div class="we-txt">
         <h2>關於我們</h2>
@@ -123,6 +196,7 @@
 
 
 <!--  -->
+<div class="bshop">
 <div class="shop">
     <h2>周邊商品</h2>
 <div class="jpeg">
@@ -139,6 +213,8 @@
         <img class="jpg" src="img/4.商品/抱枕.jpg">
            </div>
 </div>
+
+
 
 <div class="sptxt">
     <div class="text-1"><p>筆帶</p></div>
@@ -169,12 +245,12 @@
     <div class="text-8"><p>抱枕</p></div>
 </div>
 
-
+</div>
 
 </div>
 
-<div class="c1">    
-</div>
+
+
 <div class="c2">
 </div>
 <div class="c3">
@@ -208,7 +284,8 @@
    <iframe width="560" height="315" src="https://www.youtube.com/embed/yFl9_S0WFC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
 
-
+   <div class="c1">    
+</div>
 
 
 
