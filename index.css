@@ -8,7 +8,9 @@ body{
    
     min-height: 100vh;
     overflow-x: hidden;
-    background: linear-gradient(175deg,rgb(184, 229, 250),rgb(255, 255, 255));
+    background-image: url(img/bbg.jpg);
+    background-size: 100%;
+    
 }
     
 .veido{
@@ -557,6 +559,7 @@ z-index: 8;
     margin-top: 80px;
     margin-bottom: 150px;
     backdrop-filter: blur(2px);
+    
     background:rgba(255,255,255,.5);
 
     box-shadow: 5px 5px 15px rgba(59, 59, 59,.2),
