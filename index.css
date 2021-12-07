@@ -725,6 +725,8 @@ z-index: 8;
     width: 100%;
     text-align: center;
     margin:-10px auto 10px auto;
+
+    
 }
 .sptxt .text-1:hover{
     background: rgb(22, 124, 241);
@@ -777,15 +779,17 @@ z-index: 8;
 .sptxt .text-1{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin: 50px; 
     padding: 2px;
+
+   
 }
 .sptxt .text-2{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin:50px ;
     padding: 2px;
@@ -793,7 +797,7 @@ z-index: 8;
 .sptxt .text-3{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin:50px ;
     padding: 2px;
@@ -801,7 +805,7 @@ z-index: 8;
 .sptxt .text-4{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin:50px ;
     padding: 2px;
@@ -822,7 +826,7 @@ z-index: 8;
 .sptxt .text-5{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin: 50px; 
     padding: 2px;
@@ -830,7 +834,7 @@ z-index: 8;
 .sptxt .text-6{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin:50px ;
     padding: 2px;
@@ -838,7 +842,7 @@ z-index: 8;
 .sptxt .text-7{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin:50px ;
     padding: 2px;
@@ -846,7 +850,7 @@ z-index: 8;
 .sptxt .text-8{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin:50px ;
     padding: 2px;
@@ -869,7 +873,7 @@ z-index: 8;
 .sptxt .text-9{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin: 50px; 
     padding: 2px;
@@ -877,7 +881,7 @@ z-index: 8;
 .sptxt .text-10{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin:50px ;
     padding: 2px;
@@ -885,7 +889,7 @@ z-index: 8;
 .sptxt .text-11{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin:50px ;
     padding: 2px;
@@ -893,7 +897,7 @@ z-index: 8;
 .sptxt .text-12{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin:50px ;
     padding: 2px;
@@ -916,7 +920,7 @@ z-index: 8;
 .sptxt .text-13{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin: 50px; 
     padding: 2px;
@@ -924,7 +928,7 @@ z-index: 8;
 .sptxt .text-14{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin:50px ;
     padding: 2px;
@@ -932,7 +936,7 @@ z-index: 8;
 .sptxt .text-15{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin:50px ;
     padding: 2px;
@@ -940,11 +944,16 @@ z-index: 8;
 .sptxt .text-16{
     width: 200px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     background: rgb(241, 128, 22);
     margin:50px ;
     padding: 2px;
 }
+
+
+
+
+
 
 
 .wei {
