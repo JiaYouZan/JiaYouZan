@@ -511,7 +511,7 @@ z-index: 8;
 .we-txt{
     width: 600px;
     height: 400px;
-    
+    letter-spacing:3px;
     text-align: center;
     margin: 50px auto;
 }
@@ -576,7 +576,7 @@ z-index: 8;
 .disign-txt{
     width: 600px;
     height: 400px;
-    
+    letter-spacing:3px;
     text-align: center;
     margin: 50px auto;
 }
@@ -1090,11 +1090,16 @@ footer{
 .footer .f_content p{
     line-height: 2.5;
     position: relative;
+    width: 400px;
+    
     transform: translateX(0px);
+    margin: auto;
+    
 }
 .footer .f_content a{
     color: rgb(255, 255, 255);
     text-decoration: none;
+    
 
 }
 .footer .f_content p:before{
@@ -1108,8 +1113,9 @@ transform: translateX(50px);
 }
 
 .footer .f_content a:hover{
-    color: rgb(6, 62, 99);
-   
+    color: rgb(7, 102, 165);
+    font-weight: 700;
+    text-shadow:  1.5px 1.5px 0 rgb(255, 255, 255);
 }
 .footer .f_content p:hover{
     transform: translateX(50px);
