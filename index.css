@@ -636,10 +636,14 @@ z-index: 8;
 .disign-txt img{
     width: 300px;
     height: auto;
-    padding: 50px 0;
+    margin: 50px 0;
     
+    transition: .3s;
 }
-
+.disign-txt img:hover{
+    box-shadow: 0 0 15px rgb(71, 71, 71);
+    transform: scale(1.03);
+}
 
 
 
@@ -728,6 +732,7 @@ z-index: 8;
 
     
 }
+
 .sptxt .text-1:hover{
     background: rgb(22, 124, 241);
 }
@@ -776,6 +781,7 @@ z-index: 8;
 .sptxt .text-16:hover{
     background: rgb(22, 124, 241);
 }
+
 .sptxt .text-1{
     width: 200px;
     color: #fff;
@@ -784,7 +790,6 @@ z-index: 8;
     margin: 50px; 
     padding: 2px;
 
-   
 }
 .sptxt .text-2{
     width: 200px;
@@ -1118,7 +1123,7 @@ width: 0;
 height: 0;
 top: 0;
 left: 0;
-transform: translateX(50px);
+transform: translateX(0px);
 }
 
 .footer .f_content a:hover{
